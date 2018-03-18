@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.udemy.suraj.micro.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/bg"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <GridLayout
+                android:id="@+id/mainGrid"
+                android:columnCount="1"
+                android:rowCount="4"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false"
+                android:layout_weight="8"
+                android:layout_width="match_parent"
+                android:layout_height="4000dp"
+                android:padding="14dp"
+                >
+
+                <!-- Row 1 -->
+
+                <!-- Column 1 -->
+                <android.support.v7.widget.CardView
+                    app:cardUseCompatPadding="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <!--ImageView
+                            android:src="@drawable/arch"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                        <TextView
+                            android:text="Immediate addressing mode"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/expandable_text0"
+                            android:layout_marginLeft="0dp"
+                            android:textColor="#566573"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="16sp"
+                            />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <!-- Row2 -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="0dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="  Register addressing mode"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <!--com.ms.square.android.expandabletextview.ExpandableTextView
+                            android:id="@+id/expandable_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:maxCollapsedLines="4"
+                            app:animDuration="200"
+                            >
+
+
+                            <TextView
+                                android:id="@+id/expandable_text"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                />
+                            <ImageButton
+                                android:id="@+id/expand_collapse"
+                                android:layout_gravity="end|bottom"
+                                android:background="@android:color/transparent"
+                                android:padding="16dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </com.ms.square.android.expandabletextview.ExpandableTextView-->
+                        <TextView
+                            android:id="@+id/expandable_text"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#566573"
+                            android:textSize="16sp"
+                            />
+                        <!--ImageView
+                            android:src="@drawable/family_time"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                        <!--TextView
+                            android:text="Family"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <!-- Row 3 -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="0dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="  Direct addressing mode"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <!--com.ms.square.android.expandabletextview.ExpandableTextView
+                            android:id="@+id/expandable_text_view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:maxCollapsedLines="4"
+                            app:animDuration="200"
+                            -->
+
+
+                        <TextView
+                            android:id="@+id/expandable_text2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#566573"
+                            android:textSize="16sp"
+                            />
+                        <!--ImageButton
+                            android:id="@+id/expand_collapse2"
+                            android:layout_gravity="end|bottom"
+                            android:background="@android:color/transparent"
+                            android:padding="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                        <!--/com.ms.square.android.expandabletextview.ExpandableTextView-->
+
+                        <!--ImageView
+                            android:src="@drawable/family_time"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                        <!--TextView
+                            android:text="Family"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <!-- Rw 3 ends -->
+                <!--Row 4 Starts-->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="0dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="  Register index addressing mode"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <!--com.ms.square.android.expandabletextview.ExpandableTextView
+                            android:id="@+id/expandable_text_view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:maxCollapsedLines="4"
+                            app:animDuration="200"
+                            -->
+
+
+                        <TextView
+                            android:id="@+id/expandable_text3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#566573"
+                            android:textSize="16sp"
+                            />
+                        <!--ImageButton
+                            android:id="@+id/expand_collapse2"
+                            android:layout_gravity="end|bottom"
+                            android:background="@android:color/transparent"
+                            android:padding="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                        <!--/com.ms.square.android.expandabletextview.ExpandableTextView-->
+
+                        <!--ImageView
+                            android:src="@drawable/family_time"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                        <!--TextView
+                            android:text="Family"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <!--Row4 ends-->
+                <!-- Row 5 starts-->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="0dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="  Based Addressing mode "
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <!--com.ms.square.android.expandabletextview.ExpandableTextView
+                            android:id="@+id/expandable_text_view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:maxCollapsedLines="4"
+                            app:animDuration="200"
+                            -->
+
+
+                        <TextView
+                            android:id="@+id/expandable_text4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#566573"
+                            android:textSize="16sp"
+                            />
+                        <!--ImageButton
+                            android:id="@+id/expand_collapse2"
+                            android:layout_gravity="end|bottom"
+                            android:background="@android:color/transparent"
+                            android:padding="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                        <!--/com.ms.square.android.expandabletextview.ExpandableTextView-->
+
+                        <!--ImageView
+                            android:src="@drawable/family_time"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                        <!--TextView
+                            android:text="Family"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <!-- Row 5 ends -->
+                <!--Row 6 starts-->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="0dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="  Indexed addressing mode"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView" />
+                        <!--com.ms.square.android.expandabletextview.ExpandableTextView
+                            android:id="@+id/expandable_text_view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:maxCollapsedLines="4"
+                            app:animDuration="200"
+                            -->
+
+
+                        <TextView
+                            android:id="@+id/expandable_text5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#566573"
+                            android:textSize="16sp"
+                            />
+                        <!--ImageButton
+                            android:id="@+id/expand_collapse2"
+                            android:layout_gravity="end|bottom"
+                            android:background="@android:color/transparent"
+                            android:padding="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                        <!--/com.ms.square.android.expandabletextview.ExpandableTextView-->
+
+                        <!--ImageView
+                            android:id="@+id/img2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/textView"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="19dp"
+                            android:src="@drawable/sr" /-->
+
+                        <!--TextView
+                            android:id="@+id/expandable_text6"
+                            android:layout_below="@+id/img2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="16sp"
+                            /-->
+
+                        <!--TextView
+                            android:text="Family"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <!--Row 6 ends-->
+                <!--Row 7 starts-->
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="0dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="  Based-index addressing mode "
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                        <!--com.ms.square.android.expandabletextview.ExpandableTextView
+                            android:id="@+id/expandable_text_view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:maxCollapsedLines="4"
+                            app:animDuration="200"
+                            -->
+
+
+                        <!--TextView
+                            android:id="@+id/expandable_text5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="16sp"
+                            /-->
+                        <!--ImageButton
+                            android:id="@+id/expand_collapse2"
+                            android:layout_gravity="end|bottom"
+                            android:background="@android:color/transparent"
+                            android:padding="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                        <!--/com.ms.square.android.expandabletextview.ExpandableTextView-->
+
+                        <!--ImageView
+                            android:id="@+id/img2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/textView"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="19dp"
+                            android:src="@drawable/sr" /-->
+
+                        <TextView
+                            android:id="@+id/expandable_text7"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#566573"
+                            android:textSize="16sp"
+                            />
+
+                        <!--TextView
+                            android:text="Family"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" /-->
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <!--row 7 ends-->
+                <!--row 8 starts-->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="0dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="  Based indexed with displacement mode  "
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+
+
+
+                        <TextView
+                            android:id="@+id/expandable_text8"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#566573"
+                            android:textSize="16sp"
+                            />
+
+
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <!--Row 8 ends-->
+                <!--Row 9 starts-->
+
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menu="@menu/nav_menu"
+        android:layout_gravity="start"
+        >
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

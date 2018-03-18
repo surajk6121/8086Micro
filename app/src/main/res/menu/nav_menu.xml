@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/img"
+        android:icon="@drawable/acc"
+        android:title="Suraj Kumar"
+
+        />
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/setting"
+        android:title="Setting"
+        android:icon="@drawable/settings"/>
+    <item android:id="@+id/log"
+        android:title="LogOut"/>
+</menu>
