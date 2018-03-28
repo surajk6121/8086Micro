@@ -53,10 +53,20 @@
         <activity
             android:name=".ActivityThree19"
             android:label="8086 Programs" />
-        <activity android:name=".TrialActivity"
-            android:label="8086 Instruction Sets"/>
-        <activity android:name=".ActivityFour"
-            android:label="8086 Instruction Sets"></activity>
+        <activity
+            android:name=".TrialActivity"
+            android:label="8086 Instruction Sets" />
+        <activity
+            android:name=".ActivityFour"
+            android:label="8086 Instruction Sets" />
+        <activity android:name=".ActivityFour1" />
+        <activity android:name=".ActivityFour2" />
+        <activity android:name=".ActivityFour3" />
+        <activity android:name=".ActivityFour4" />
+        <activity android:name=".ActivityFour5" />
+        <activity android:name=".ActivityFour6" />
+        <activity android:name=".ActivityFour7" />
+        <activity android:name=".ActivityFour8"></activity>
     </application>
 
 </manifest>

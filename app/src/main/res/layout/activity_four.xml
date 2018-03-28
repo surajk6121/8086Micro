@@ -26,7 +26,7 @@
 
             <GridLayout
                 android:id="@+id/mainGrid"
-                android:columnCount="11"
+                android:columnCount="1"
                 android:rowCount="3"
                 android:alignmentMode="alignMargins"
                 android:columnOrderPreserved="false"
@@ -57,14 +57,15 @@
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
+
                         <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
                             android:text="Data Transfer Instructions"
                             android:textAlignment="center"
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:textStyle="bold" />
                         <TextView
                             android:id="@+id/text"
                             android:layout_marginLeft="0dp"
@@ -113,7 +114,7 @@
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
                             android:textStyle="bold"
-                            android:layout_width="wrap_content"
+                            android:layout_width="300dp"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/text2"
@@ -157,7 +158,7 @@
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
                             android:textStyle="bold"
-                            android:layout_width="wrap_content"
+                            android:layout_width="300dp"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/text3"
@@ -199,7 +200,7 @@
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
                             android:textStyle="bold"
-                            android:layout_width="wrap_content"
+                            android:layout_width="300dp"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/text4"
@@ -244,7 +245,7 @@
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
                             android:textStyle="bold"
-                            android:layout_width="wrap_content"
+                            android:layout_width="300dp"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/text5"
@@ -287,7 +288,7 @@
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
                             android:textStyle="bold"
-                            android:layout_width="wrap_content"
+                            android:layout_width="300dp"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/text6"
@@ -329,7 +330,7 @@
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
                             android:textStyle="bold"
-                            android:layout_width="wrap_content"
+                            android:layout_width="300dp"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/text7"
@@ -370,7 +371,7 @@
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
                             android:textStyle="bold"
-                            android:layout_width="wrap_content"
+                            android:layout_width="300dp"
                             android:layout_height="wrap_content" />
                         <TextView
                             android:id="@+id/text8"
