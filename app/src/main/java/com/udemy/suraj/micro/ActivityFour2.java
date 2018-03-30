@@ -51,18 +51,19 @@ public class ActivityFour2 extends AppCompatActivity {
         listDataHeader.add("CWD");
 
         List<String> edmtDev = new ArrayList<>();
-        edmtDev.add("Used to add with carry");
+        edmtDev.add("Used to add the provided byte to byte/word to word");
 
         List<String> androidStudio = new ArrayList<>();
-        androidStudio.add("Used to increment the provided byte/word by 1");
+        androidStudio.add("Used to add with carry");
 
         List<String> xamarin = new ArrayList<>();
-        xamarin.add("Used to adjust ASCII after addition");
-
+        xamarin.add("Used to increment the provided byte/word by 1");
+        List<String> uwp2 = new ArrayList<>();
+        uwp2.add("Used to adjust ASCII after addition");
         List<String> uwp = new ArrayList<>();
-        uwp.add("Used to adjust the decimal after the addition/subtraction operation");
+        uwp.add("Used to subtract the byte from byte/word from word");
         List<String> popa = new ArrayList<>();
-        popa.add("Used to subtract the byte from byte/word from word");
+        popa.add("Used to adjust the decimal after the addition/subtraction operation");
         List<String> xchg = new ArrayList<>();
         xchg.add("Used to perform subtraction with borrow");
         List<String> xlat = new ArrayList<>();
@@ -97,7 +98,7 @@ public class ActivityFour2 extends AppCompatActivity {
         listHash.put(listDataHeader.get(0),edmtDev);
         listHash.put(listDataHeader.get(1),androidStudio);
         listHash.put(listDataHeader.get(2),xamarin);
-        listHash.put(listDataHeader.get(3),uwp);
+        listHash.put(listDataHeader.get(3),uwp2);
         listHash.put(listDataHeader.get(4),popa);
         listHash.put(listDataHeader.get(5),uwp);
         listHash.put(listDataHeader.get(6),xchg);
@@ -111,9 +112,9 @@ public class ActivityFour2 extends AppCompatActivity {
         listHash.put(listDataHeader.get(14),sahf);
         listHash.put(listDataHeader.get(15),pushf);
         listHash.put(listDataHeader.get(16),popf);
-        listHash.put(listDataHeader.get(16),aad);
-        listHash.put(listDataHeader.get(16),cbw);
-        listHash.put(listDataHeader.get(16),cwd);
+        listHash.put(listDataHeader.get(17),aad);
+        listHash.put(listDataHeader.get(18),cbw);
+        listHash.put(listDataHeader.get(19),cwd);
 
     }
 }

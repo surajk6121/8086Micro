@@ -98,6 +98,10 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent = new Intent(MainActivity.this,ActivityFour.class);
                         intent.putExtra("info","This is activity from card item index  "+finalI);
                         startActivity(intent);}
+                    if(finalI==4){
+                        Intent intent = new Intent(MainActivity.this,ActivityFive.class);
+                        intent.putExtra("info","This is activity from card item index  "+finalI);
+                        startActivity(intent);}
 
                 }
             });

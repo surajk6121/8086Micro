@@ -106,19 +106,19 @@ public class ActivityFour extends AppCompatActivity{
                         Intent intent = new Intent(ActivityFour.this,ActivityFour4.class);
                         intent.putExtra("info","This is activity from card item index  "+finalI);
                         startActivity(intent);}
-                    if(finalI==3){
+                    if(finalI==4){
                         Intent intent = new Intent(ActivityFour.this,ActivityFour5.class);
                         intent.putExtra("info","This is activity from card item index  "+finalI);
                         startActivity(intent);}
-                    if(finalI==3){
+                    if(finalI==5){
                         Intent intent = new Intent(ActivityFour.this,ActivityFour6.class);
                         intent.putExtra("info","This is activity from card item index  "+finalI);
                         startActivity(intent);}
-                    if(finalI==3){
+                    if(finalI==6){
                         Intent intent = new Intent(ActivityFour.this,ActivityFour7.class);
                         intent.putExtra("info","This is activity from card item index  "+finalI);
                         startActivity(intent);}
-                    if(finalI==3){
+                    if(finalI==7){
                         Intent intent = new Intent(ActivityFour.this,ActivityFour8.class);
                         intent.putExtra("info","This is activity from card item index  "+finalI);
                         startActivity(intent);}
