@@ -101,33 +101,7 @@
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" />
-                        <!--com.ms.square.android.expandabletextview.ExpandableTextView
-                            android:id="@+id/expandable_text_view"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:maxCollapsedLines="4"
-                            app:animDuration="200"
-                            >
-
-
-                            <TextView
-                                android:id="@+id/expandable_text"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginRight="10dp"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:textColor="#000"
-                                android:textSize="16sp"
-                                />
-                            <ImageButton
-                                android:id="@+id/expand_collapse"
-                                android:layout_gravity="end|bottom"
-                                android:background="@android:color/transparent"
-                                android:padding="16dp"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content" />
-
-                        </com.ms.square.android.expandabletextview.ExpandableTextView-->
+                       
                         <TextView
                             android:id="@+id/expandable_text"
                             android:layout_marginLeft="10dp"
@@ -137,20 +111,7 @@
                             android:textColor="#566573"
                             android:textSize="16sp"
                             />
-                        <!--ImageView
-                            android:src="@drawable/family_time"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
 
-                        <!--TextView
-                            android:text="Family"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
 
                     </RelativeLayout>
 
@@ -227,13 +188,6 @@
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" />
-                        <!--com.ms.square.android.expandabletextview.ExpandableTextView
-                            android:id="@+id/expandable_text_view2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:maxCollapsedLines="4"
-                            app:animDuration="200"
-                            -->
 
 
                         <TextView
@@ -245,30 +199,7 @@
                             android:textColor="#566573"
                             android:textSize="16sp"
                             />
-                        <!--ImageButton
-                            android:id="@+id/expand_collapse2"
-                            android:layout_gravity="end|bottom"
-                            android:background="@android:color/transparent"
-                            android:padding="16dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
 
-                        <!--/com.ms.square.android.expandabletextview.ExpandableTextView-->
-
-                        <!--ImageView
-                            android:src="@drawable/family_time"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
-
-                        <!--TextView
-                            android:text="Family"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
 
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
@@ -300,13 +231,6 @@
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" />
-                        <!--com.ms.square.android.expandabletextview.ExpandableTextView
-                            android:id="@+id/expandable_text_view2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:maxCollapsedLines="4"
-                            app:animDuration="200"
-                            -->
 
 
                         <TextView
@@ -318,31 +242,6 @@
                             android:textColor="#566573"
                             android:textSize="16sp"
                             />
-                        <!--ImageButton
-                            android:id="@+id/expand_collapse2"
-                            android:layout_gravity="end|bottom"
-                            android:background="@android:color/transparent"
-                            android:padding="16dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
-
-                        <!--/com.ms.square.android.expandabletextview.ExpandableTextView-->
-
-                        <!--ImageView
-                            android:src="@drawable/family_time"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
-
-                        <!--TextView
-                            android:text="Family"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
-
                     </RelativeLayout>
 
                 </android.support.v7.widget.CardView>
@@ -379,13 +278,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/textView" />
-                        <!--com.ms.square.android.expandabletextview.ExpandableTextView
-                            android:id="@+id/expandable_text_view2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:maxCollapsedLines="4"
-                            app:animDuration="200"
-                            -->
 
 
                         <TextView
@@ -397,45 +289,6 @@
                             android:textColor="#566573"
                             android:textSize="16sp"
                             />
-                        <!--ImageButton
-                            android:id="@+id/expand_collapse2"
-                            android:layout_gravity="end|bottom"
-                            android:background="@android:color/transparent"
-                            android:padding="16dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
-
-                        <!--/com.ms.square.android.expandabletextview.ExpandableTextView-->
-
-                        <!--ImageView
-                            android:id="@+id/img2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:layout_below="@+id/textView"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="19dp"
-                            android:src="@drawable/sr" /-->
-
-                        <!--TextView
-                            android:id="@+id/expandable_text6"
-                            android:layout_below="@+id/img2"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textColor="#000"
-                            android:textSize="16sp"
-                            /-->
-
-                        <!--TextView
-                            android:text="Family"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
 
                     </RelativeLayout>
 
@@ -470,43 +323,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             />
-                        <!--com.ms.square.android.expandabletextview.ExpandableTextView
-                            android:id="@+id/expandable_text_view2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:maxCollapsedLines="4"
-                            app:animDuration="200"
-                            -->
-
-
-                        <!--TextView
-                            android:id="@+id/expandable_text5"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textColor="#000"
-                            android:textSize="16sp"
-                            /-->
-                        <!--ImageButton
-                            android:id="@+id/expand_collapse2"
-                            android:layout_gravity="end|bottom"
-                            android:background="@android:color/transparent"
-                            android:padding="16dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
-
-                        <!--/com.ms.square.android.expandabletextview.ExpandableTextView-->
-
-                        <!--ImageView
-                            android:id="@+id/img2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:layout_below="@+id/textView"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="19dp"
-                            android:src="@drawable/sr" /-->
 
                         <TextView
                             android:id="@+id/expandable_text7"
@@ -518,14 +334,6 @@
                             android:textSize="16sp"
                             />
 
-                        <!--TextView
-                            android:text="Family"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" /-->
 
                     </RelativeLayout>
 
